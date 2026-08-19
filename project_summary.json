@@ -1,0 +1,49 @@
+{
+  "project_name": "AI Shopping Control Assistant",
+  "description": "A desktop application for predicting purchase regret using machine learning",
+  "version": "1.0.0",
+  "generated_at": "2026-06-08T13:54:53.694180",
+  "components": {
+    "GUI": [
+      "main_window.py",
+      "input_frame.py",
+      "result_frame.py",
+      "dashboard.py"
+    ],
+    "ML": [
+      "predictor.py",
+      "decision_rules.py",
+      "regret_classifier.py"
+    ],
+    "Database": [
+      "db.py"
+    ],
+    "Utils": [
+      "data_loader.py",
+      "file_handler.py",
+      "validation.py",
+      "charts.py"
+    ],
+    "Reports": [
+      "report_generator.py",
+      "user_report_manager.py"
+    ]
+  },
+  "technologies": [
+    "Python 3.14+",
+    "customtkinter",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "SQLite3"
+  ],
+  "dependencies": {
+    "pandas": ">=1.0.0",
+    "numpy": ">=1.0.0",
+    "scikit-learn": ">=0.24.0",
+    "joblib": ">=1.0.0",
+    "customtkinter": ">=5.0.0",
+    "matplotlib": ">=3.0.0"
+  }
+}

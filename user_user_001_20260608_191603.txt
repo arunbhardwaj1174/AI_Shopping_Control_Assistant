@@ -1,0 +1,11 @@
+User Report for user_001
+Generated: 2026-06-08T13:46:03.488424
+==================================================
+
+cost: 250.0
+savings: 1000.0
+previous_purchase: 1
+days_since_last_purchase: 20
+prediction: Low Regret
+probability: 0.12
+advice: This purchase is safe.

@@ -1,0 +1,10 @@
+import tkinter as tk
+
+root = tk.Tk()
+
+logo = tk.PhotoImage(file="assets/logo.png")
+
+logo_label = tk.Label(root, image=logo)
+logo_label.pack()
+
+root.mainloop()
